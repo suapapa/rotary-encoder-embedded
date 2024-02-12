@@ -1,6 +1,6 @@
 use crate::Direction;
 use crate::RotaryEncoder;
-use embedded_hal::digital::v2::InputPin;
+use embedded_hal::digital::InputPin;
 
 /// StandardMode
 /// This mode is best used when polled at ~900Hz.

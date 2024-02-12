@@ -12,7 +12,7 @@ pub mod angular_velocity;
 #[cfg(feature = "standard")]
 pub mod standard;
 
-use embedded_hal::digital::v2::InputPin;
+use embedded_hal::digital::InputPin;
 
 /// Direction of Rotary Encoder rotation
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
